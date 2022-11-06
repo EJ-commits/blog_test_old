@@ -28,12 +28,19 @@ html {
   font-size: 16px;
 }
 
+@font-face {
+    font-family: 'RIDIBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
   background: var(--body-bg);
   color: var(--text-color);
   -webkit-font-smoothing: antialiased;
-  font-family: "Source Sans Pro", "Microsoft Yahei", sans-serif;
-  line-height: 1.75;
+  font-family: "Source Sans Pro", "RIDIBatang", sans-serif;
+  line-height: 1.65;
 }
 
 /* --- Typography --- */
